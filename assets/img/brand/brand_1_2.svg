@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100" width="350" height="100">
+	<title>brand_1_2</title>
+	<defs>
+		<image  width="350" height="100" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAABkAQMAAAD0c8omAAAAAXNSR0IB2cksfwAAAANQTFRF6uztL39KiQAAAChJREFUeJztyjENAAAMA6DVv+lpaNITbnKFyLIsy7Isy7Isy7Isy4v8iXMAZcIZJgoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 28px;fill: #f1f5f7;font-weight: 700;font-family: "DrukCyr-Bold", "Druk Cyr" } 
+		.t1 { font-size: 81px;fill: #1f2122;font-weight: 700;font-family: "DrukCyr-Bold", "Druk Cyr" } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<text id="бани-бочки" style="transform: matrix(2.072,.007,0,1,127,94.8);paint-order:stroke fill markers;stroke: #000000;stroke-width: 2;stroke-linejoin: round;" >
+		<tspan x="0" y="0" class="t0">б</tspan><tspan  y="0" class="t0">а</tspan><tspan  y="0" class="t0">н</tspan><tspan  y="0" class="t0">и</tspan><tspan  y="0" class="t0">-</tspan><tspan  y="0" class="t0">б</tspan><tspan  y="0" class="t0">о</tspan><tspan  y="0" class="t0">ч</tspan><tspan  y="0" class="t0">к</tspan><tspan  y="0" class="t0">и</tspan><tspan  y="0" class="t0">
+</tspan>
+	</text>
+	<text id="CooperWood" style="transform: matrix(1,0,0,1,25,70)" >
+		<tspan x="0" y="0" class="t1">C</tspan><tspan  y="0" class="t1">o</tspan><tspan  y="0" class="t1">o</tspan><tspan  y="0" class="t1">p</tspan><tspan  y="0" class="t1">e</tspan><tspan  y="0" class="t1">r</tspan><tspan  y="0" class="t1">W</tspan><tspan  y="0" class="t1">o</tspan><tspan  y="0" class="t1">o</tspan><tspan  y="0" class="t1">d</tspan><tspan  y="0" class="t1">
+</tspan>
+	</text>
+</svg>

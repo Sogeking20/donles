@@ -1,0 +1,60 @@
+/* Testimonial Card ---------------------------------- */
+.testi-card {
+    position: relative;
+    text-align: center;
+    .box-text {
+        font-family: $title-font;
+        font-style: italic;
+        color: $white-color;
+        background-color: #353950;
+        border-radius: 30px;
+        padding: 23px 30px 63px 30px;
+        .text {
+            position: relative;
+            z-index: 3;
+        }
+    }
+    .box-img {
+        margin: -40px auto 20px auto;
+        img {
+            border-radius: 99px;
+        }
+    }
+    .box-title {
+        color: $white-color;
+        font-weight: 600;
+        margin-bottom: 3px;
+    }
+    .box-desig {
+        color: #D8DDE1;
+        margin-bottom: -0.45em;
+    }
+    .box-quote {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &.style-white {
+        .box-text {
+            color: $body-color;
+            background-color: $body-bg;
+            border: 1px solid $border-color;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.06);
+            transition: 0.4s ease-in-out;
+        }
+        &:hover {
+            .box-text {
+                border-color: $theme-color;
+            }
+        }
+    }
+}
+
+#testiSlider1 {
+    + .slider-arrow,
+    + .slider-arrow + .slider-arrow {
+        top: 35%;
+    }
+}
+

@@ -1,0 +1,132 @@
+//---------------------------------------
+.location-card {
+    background-color: $theme-color;
+    border-radius: 30px;
+    padding: 40px;
+    @include xs {
+        border-radius: 20px;
+    }
+    @include vxs {
+        padding: 30px;
+    }
+    .box-map {
+        margin-bottom: 40px;
+        line-height: 1px;
+        iframe {
+            border-radius: 20px;
+            height: 150px;
+            filter: grayscale(100);
+        }
+    }
+}
+
+.cta-card {
+    padding: 60px;
+    background-color: #FFEEE6;
+    border-radius: 30px;
+    background-size: auto;
+    background-position: bottom right;
+    height: 100%;
+    @include lg {
+        padding: 40px;
+    }
+    @include sm {
+        background-position: bottom -130px right -60px;
+    }
+    @include xs {
+        background-position: bottom -250px right -80px;
+        border-radius: 20px;
+    }
+    @include vxs {
+        padding: 30px;
+    }
+    .box-subtitle {
+        font-family: $title-font;
+        font-size: 20px;
+        font-weight: 600;
+        color: $theme-color2;
+        margin-bottom: 20px;
+        margin-top: -0.35em;
+    }
+    .box-title {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 22px;
+        @include xs {
+            font-size: 28px;
+        }
+    }
+    .box-text {
+        max-width: 395px;
+        @include lg {
+            max-width: 500px;
+        }
+        @include md {
+            max-width: 350px;
+        }
+    }
+    .th-btn {
+        margin-top: 40px;
+    }
+}
+
+// Newsticker -------------------------
+.newsticker-sec1 {
+    padding: 80px 0;
+    border-bottom: 1px solid $border-color;
+    @include md {
+        padding: 60px 0;
+    }
+}
+.newsticker-list {
+    display: inline-block;
+    svg {
+        margin-top: -3px;
+    }
+    path {
+        transition: 0.3s ease-in-out;
+    }
+    a {
+        display: inline-block;
+        font-family: $title-font;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1;
+        color: $title-color;
+        @include sm {
+            font-size: 26px;
+        }
+        &:hover {
+            color: $theme-color2;
+            path {
+                fill: $theme-color2;
+                stroke: $theme-color2;
+            }
+        }
+    }
+}
+.newsticker-slider {
+    .swiper-wrapper {
+        transition-timing-function: linear !important;
+    }
+    .swiper-slide {
+        width: auto;
+        &:nth-child(even) {
+            .newsticker-list {
+                a {
+                    color: transparent;
+                    -webkit-text-stroke: 1px $theme-color2;
+                    path {
+                        stroke: $theme-color2 !important;
+                    }
+                    &:hover {
+                        color: $theme-color2;
+                        path {
+                            fill: $theme-color2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

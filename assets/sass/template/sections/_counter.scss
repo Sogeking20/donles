@@ -1,0 +1,90 @@
+/* Counter 1 ---------------------------------- */
+.counter-card {
+    --border-color: #D4D4D4;
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+        background-image: linear-gradient(180deg, #1E31FF 0%, rgba(30, 49, 255, 0.1) 100%);
+        padding: 60px;
+        border-radius: 30px;
+        backdrop-filter: blur(10px);
+        &.bg-theme {
+            background-color: $theme-color;
+            background-image: none;
+        }
+        @include lg {
+            padding: 35px;
+            border-radius: 20px;
+        }
+        .divider {
+            width: 1px;
+            height: 75px;
+            background-color: rgba($color: #fff, $alpha: 0.4);
+            &:last-of-type {
+                display: none;
+            }
+        }
+    }
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .box-number {
+        font-size: 44px;
+        color: $white-color;
+        font-weight: 700;
+        margin-bottom: 0px;
+        margin-top: -0.2em;
+        .counter-number {
+            color: $white-color;
+        }
+    }
+    .box-text {
+        font-size: 16px;
+        color: $white-color;
+    }
+    .media-body {
+        flex: 1;
+        max-width: 180px;
+    }
+}
+
+@include md {
+    .counter-card {
+        &-wrap {
+            .divider {
+                height: 155px;
+            }
+        }
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        .box-number {
+            font-size: 36px;
+            margin-bottom: 0;
+        }
+    }
+}
+@include sm {
+    .counter-card {
+        &-wrap {
+            flex-wrap: wrap;
+            position: relative;
+            gap: 36px;
+            .divider {
+                display: none;
+            }
+        }
+        flex: calc(50% - 18px);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@include xs {
+    .counter-card {
+        &-wrap {
+            padding: 35px 10px;
+            gap: 36px 20px;
+        }
+        flex: calc(50% - 10px);
+    }
+}

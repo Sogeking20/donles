@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://donles-nn.ru/sitemap.xml
+Host: donles-nn.ru

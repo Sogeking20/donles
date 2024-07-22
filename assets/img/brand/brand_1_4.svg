@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100" width="350" height="100">
+	<title>brand_1_3</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 24px;fill: #ffffff;font-weight: 700;font-family: "DrukCyr-Bold", "Druk Cyr" } 
+		.s1 { fill: none;stroke: #ffffff;stroke-miterlimit:100;stroke-width: 5 } 
+	</style>
+	<text id="МЕСТО СВОБОДНО, ПРИГЛАШАЕМ!" style="transform: matrix(1.547,.002,0,1.807,5.391,70.63)" >
+		<tspan x="0" y="0" class="t0">М</tspan><tspan  y="0" class="t0">Е</tspan><tspan  y="0" class="t0">С</tspan><tspan  y="0" class="t0">Т</tspan><tspan  y="0" class="t0">О</tspan><tspan  y="0" class="t0"> </tspan><tspan  y="0" class="t0">С</tspan><tspan  y="0" class="t0">В</tspan><tspan  y="0" class="t0">О</tspan><tspan  y="0" class="t0">Б</tspan><tspan  y="0" class="t0">О</tspan><tspan  y="0" class="t0">Д</tspan><tspan  y="0" class="t0">Н</tspan><tspan  y="0" class="t0">О</tspan><tspan  y="0" class="t0">,</tspan><tspan  y="0" class="t0"> </tspan><tspan  y="0" class="t0">П</tspan><tspan  y="0" class="t0">Р</tspan><tspan  y="0" class="t0">И</tspan><tspan  y="0" class="t0">Г</tspan><tspan  y="0" class="t0">Л</tspan><tspan  y="0" class="t0">А</tspan><tspan  y="0" class="t0">Ш</tspan><tspan  y="0" class="t0">А</tspan><tspan  y="0" class="t0">Е</tspan><tspan  y="0" class="t0">М</tspan><tspan  y="0" class="t0">!</tspan><tspan  y="0" class="t0">
+</tspan>
+	</text>
+	<path id="форма 1" class="s1" d="m0 0h350v100h-350z"/>
+</svg>

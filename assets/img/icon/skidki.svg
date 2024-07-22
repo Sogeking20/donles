@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70" width="68" height="68">
+	<title>feature_card_2-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h70v70h-70z"/>
+		</clipPath>
+		<image  width="70" height="68" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABECAMAAAALOLO9AAAAAXNSR0IB2cksfwAAAgRQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////ggKGtAAAAKx0Uk5TAAgeNUlcHwWQ3fT/3nG8mj0hIj4aiO44ien46gIvTdg5u5guEMT9Q6V4RPy/h/5rcvU/bA7XBAyfBshijsdo5hRKDaONfLccJu+CO1qAKwvjJPPRllJwb3sHGRuo2u1uXZF2xh0BKExPOp5eVEAs7OvN+blTJXcYlVXZc9x1g7TJ0AoRaX1ZF4qLmZs2wPAVzvvPjGDU1WGS8ZRQxVFL5+ggZvfB3+Dif6FHYxSiPAYAAAPESURBVHic7dd5bExBHAfw329VNZFqtSjpaqqvGhbRqquLokIRTYO4glBpKapFhBDiD6JoiJZqHVEicQahIY64SlWqRePuZRMtShd1RF075u222N2Z9+Z1+c/3j7fzftn9vDezb2ZnERSDcoCQZvhF+X3KjIesABAdfnCFafWjoeFW11TGG9/aMT5o1s60od2psWP8iO57rUbG1/291w8Hplmddz3nhtiMHs0IDAaI7zMNTADSu/dyN0GnVw0Vv0oI/EqHuY1bhTATjM/p0R+fQJfGiwc8AgOaaKNTfbkoo2+N8jWDSyAUS62VELwN4Y9pQ0JzlXCnelfJT5sBC/vhPWuhBxb0JQ9pw/Ml8wOcb6qvWwk9huZDb49PpRDSsr4IBtyllV6F7EnBYHRBtPeRxfJN4RV68AS8BDCEFNFKeB7ta6VFhBmGnwpg+A25OQAf2EZC392SL78aL0BES3JRgInwftkBsfi99cTQHvEkxNIpfsF63ir8vuFFtVSgzow9D1LwE1PDmdQZH0A3Utb4tAQGVFfAiBPqzIQzzv10yOij6szE06rMmMPqzORcVSbmkAozha4OTuPnlAg/Qg4qMFPxWiQeU2XGk7xBlgN8ZkZBtaphi79xL5+JOyKoAEzaw2d0cU6Dx8lk3M1nEmy/J+ohhOziM03OP2TmKtskS4yZv1eRmZn5n3GVmem0KtllAuMqLCYpR5GJ2ybGLDinNM/9o7eKMcn2084hCZYMMSY4ZqcCMzuXsRdgPvdBNQoM3aIIMm7JO7jKnIzvokxsxVMuk1h+UpSBJZXnOEq0lMYqs5l+g88y92YgfXvErHOWlil32FvFjmEHmXXeCqVroWNULV+ctzaKDCzDXJNDKTCGbOC8m79e6qdjul0hhexn7R5VGArNwCONs8t/IuZwEQUm6jIBiK/ravs/deuzROcZDr2klWke6fFG3lskdKTMM/m3rcWs0rxvWpm168jKTW/+KPiEX8cVK7UzCNK4woFZ825C/+1zdac+VgDRzOiTMpz/z3mlbOUMM5uJupqa7us8HSTzQjzG3IyxmCH563EV5y7XVJt7LhJgEmqMHriCg8hZh1h23LFvjkyqJy5VMGxJw3fLlZhkAy5WReRsxuNnOYx+NaYIGdZ4jTKu/t21X0zUtNq2SeIKTebr8rLGydHA7MPX7RI1IXKycee9t78ZvTF2tmbDll0ba6tsTKolKL6JiJw0n6fLAUfGvRP7cvjZ7J2DfR66iMgxYFjpX2BCcN5Vk8tK4GCMSkxf6KKyJSX7J4BMIq7uD6eLAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g id="Layer">
+			<use id="free-icon-miner-6163199" href="#img1" x="0" y="1"/>
+		</g>
+	</g>
+</svg>

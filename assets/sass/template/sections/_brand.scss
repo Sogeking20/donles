@@ -1,0 +1,146 @@
+/* Brand 1 ---------------------------------- */
+.brand-box {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 46px;
+    width: auto;
+    filter: grayscale(1) invert(0.3) brightness(1.4);
+    transition: 0.4s ease-in-out;
+    &:hover {
+        filter: none;
+    }
+}
+.brand-sec1 {
+    background-color: #27282E;
+    padding: 56px 12px;
+}
+/* Brand 2 ---------------------------------- */
+.brand-card {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    min-height: 46px;
+}
+.brand-row2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px 90px;
+    flex-wrap: wrap;
+    @include xl {
+        gap: 45px 60px;
+    }
+    @include lg {
+        margin-top: -10px;
+        gap: 25px 24px;
+    }
+    @include xs {
+        .brand-col {
+            flex: calc(50% - 12px);
+        }
+    }
+}
+.brand-sec2 {
+    max-width: 1620px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    overflow: hidden;
+    background-attachment: fixed;
+    @include xl {
+        border-radius: 0;
+        .shape-mockup {
+            max-width: 140px;
+            &.pulse {
+                max-width: 290px;
+            }
+        }
+    }
+    @include xs {
+        .shape-mockup {
+            max-width: 100px;
+            &.pulse {
+                max-width: 220px;
+            }
+        }
+    }
+}
+
+/* Brand 3 -----------------------------*/
+.brand-list {
+    &-row {
+        --bs-gutter-y: 30px;
+        @include xs {
+            --bs-gutter-x: 16px;
+            --bs-gutter-y: 16px;
+        }
+    }
+    background-color: $smoke-color;
+    height: 100px;
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 18px;
+    img {
+        transition: 0.4s ease-in-out;
+        filter: grayscale(1) invert(0.5) brightness(1.4);
+    }
+    &:hover {
+        img {
+            filter: none;
+        }
+    }
+    @include xs {
+        height: 80px;
+        border-radius: 10px;
+    }
+    @include vxs {
+        height: 65px;
+    }
+}
+
+/* On Event page */
+.brand-grid {
+    &-wrap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: 1px solid $border-color;
+        border-radius: 10px;
+        @include xs {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    display: grid;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 100px;
+    width: auto;
+    filter: grayscale(1) invert(0.3) brightness(1.4);
+    transition: 0.4s ease-in-out;
+    border-right: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    padding: 15px;
+    @media (min-width: 575px) {
+        &:nth-child(3n) {
+            border-right: none;
+        }
+        &:nth-last-child(-n + 3) {
+            border-bottom: none;
+        }
+    }
+    @include xs {
+        &:nth-child(2n) {
+            border-right: none;
+        }
+        &:nth-last-child(-n + 2) {
+            border-bottom: none;
+        }
+    }
+    &:hover {
+        filter: none;
+    }
+}
